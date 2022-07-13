@@ -1,0 +1,9 @@
+.welcome-area{
+    background-image: url(img/home-bg.jpg);
+    background-size: cover;
+    height: 60vh;
+    color : white;
+}
+.intro-area {
+    background-image: linear-gradient(to left, #FF9F4A,#FF3C83);
+}

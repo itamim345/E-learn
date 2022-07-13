@@ -1,15 +1,33 @@
+/* .welcome-area css */
 .welcome-area{
     background-image: url(img/home-bg.jpg);
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
     color : white;
+    position: relative;
 }
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+/* .intro-area css */
 .intro-area {
     background-image: linear-gradient(to left, #FF9F4A,#FF3C83);
 }
+/* .main-area css */
 .main-area .card:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+/* .info-area css */
 .info-area li a {
     text-decoration: none;
+}
+
+/* responsive css */
+@media (max-width: 768px){
+    .welcome-area{
+        min-height: 30vh;
+    }
 }
